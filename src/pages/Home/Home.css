@@ -1,0 +1,47 @@
+.home-container{
+}
+.home-container__add-icon-container {
+  position: absolute;
+  font-size: 20px;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+table {
+  width: calc(100% - 100px);
+  margin: 30px 50px;
+  text-align: center;
+}
+caption {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+tr {
+  height: 30px;
+}
+
+@media (max-width: 400px) {
+  table {
+    width: calc(100% - 20px);
+    margin: 30px 10px;
+  }
+  td,
+  th {
+    font-size: 12px;
+  }
+  tr {
+    height: 30px;
+  }
+  caption {
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+}
+button {
+  padding: 5px 15px;
+  cursor: pointer;
+}

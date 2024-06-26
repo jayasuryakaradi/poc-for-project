@@ -1,0 +1,8 @@
+button.edit-btn {
+  all: unset;
+  color: green;
+}
+button.delete-btn {
+  all: unset;
+  color: red;
+}
